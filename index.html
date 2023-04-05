@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #container {
+                height: 680px;
+                background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-size: 300% 300%;
+                animation: animation 3s infinite ease-in-out;
+            }
+            @keyframes animation {
+                0%{
+                    background-position: 0 50%;
+                }
+                50%{
+                    background-position: 100% 50%;
+                }
+                100%{
+                    background-position: 0 50%;
+                }
+            }
+            #gaybutton {
+                align-self: center;
+                padding: 15px 25px;
+                
+            }
+            a {
+                font-size: 50px;
+            }
+            a:link {
+                color: white;
+                background-color: transparent;
+                text-decoration: none;
+            
+            }
+            a:visited {
+                color: white;
+                background-color: transparent;
+                text-decoration: none;
+
+            }
+            a {
+                -webkit-text-stroke: 2px;
+                -webkit-text-stroke-color: black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <a href="https://www.youtube.com/watch?v=wdh2axFIXc0"
+            target="_blank">For Chinghorse</a>
+
+        </div>
+    </body>
+
+
+
+
+</html>
